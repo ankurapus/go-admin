@@ -7,7 +7,7 @@ import (
 
 	_ "github.com/GoAdminGroup/go-admin/adapter/fasthttp"
 	_ "github.com/GoAdminGroup/go-admin/modules/db/drivers/mysql"
-	_ "github.com/ankurapus/themes/adminlte"
+	_ "github.com/GoAdminGroup/themes/adminlte"
 
 	"github.com/GoAdminGroup/go-admin/engine"
 	"github.com/GoAdminGroup/go-admin/examples/datamodel"

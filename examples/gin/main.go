@@ -18,7 +18,7 @@ import (
 	"github.com/GoAdminGroup/go-admin/template"
 	"github.com/GoAdminGroup/go-admin/template/chartjs"
 	"github.com/GoAdminGroup/go-admin/template/types/action"
-	"github.com/ankurapus/themes/adminlte"
+	"github.com/GoAdminGroup/themes/adminlte"
 	"github.com/gin-gonic/gin"
 )
 

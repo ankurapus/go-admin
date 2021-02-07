@@ -12,7 +12,7 @@ import (
 
 	_ "github.com/GoAdminGroup/go-admin/adapter/gin"                    // web framework adapter
 	_ "github.com/GoAdminGroup/go-admin/modules/db/drivers/{{.Driver}}" // sql driver
-	_ "github.com/ankurapus/themes/{{.Theme}}"                       // ui theme
+	_ "github.com/GoAdminGroup/themes/{{.Theme}}"                       // ui theme
 
 	"github.com/GoAdminGroup/go-admin/engine"
 	"github.com/GoAdminGroup/go-admin/template"
@@ -73,7 +73,7 @@ import (
 
 	_ "github.com/GoAdminGroup/go-admin/adapter/beego"                   // web framework adapter
 	_ "github.com/GoAdminGroup/go-admin/modules/db/drivers/{{.Driver}}"  // sql driver
-	_ "github.com/ankurapus/themes/{{.Theme}}"                        // ui theme
+	_ "github.com/GoAdminGroup/themes/{{.Theme}}"                        // ui theme
 
 	"github.com/GoAdminGroup/go-admin/engine"
 	"github.com/GoAdminGroup/go-admin/template"
@@ -134,7 +134,7 @@ import (
 
 	_ "github.com/GoAdminGroup/go-admin/adapter/buffalo"                 // web framework adapter
 	_ "github.com/GoAdminGroup/go-admin/modules/db/drivers/{{.Driver}}"  // sql driver
-	_ "github.com/ankurapus/themes/{{.Theme}}"                        // ui theme
+	_ "github.com/GoAdminGroup/themes/{{.Theme}}"                        // ui theme
 
 	"github.com/GoAdminGroup/go-admin/engine"
 	"github.com/GoAdminGroup/go-admin/template"
@@ -200,7 +200,7 @@ import (
 
 	_ "github.com/GoAdminGroup/go-admin/adapter/chi"                 // web framework adapter
 	_ "github.com/GoAdminGroup/go-admin/modules/db/drivers/{{.Driver}}"  // sql driver
-	_ "github.com/ankurapus/themes/{{.Theme}}"                        // ui theme
+	_ "github.com/GoAdminGroup/themes/{{.Theme}}"                        // ui theme
 
 	"github.com/GoAdminGroup/go-admin/engine"
 	"github.com/GoAdminGroup/go-admin/template"
@@ -283,7 +283,7 @@ import (
 
 	_ "github.com/GoAdminGroup/go-admin/adapter/echo"                 // web framework adapter
 	_ "github.com/GoAdminGroup/go-admin/modules/db/drivers/{{.Driver}}"  // sql driver
-	_ "github.com/ankurapus/themes/{{.Theme}}"                        // ui theme
+	_ "github.com/GoAdminGroup/themes/{{.Theme}}"                        // ui theme
 
 	"github.com/GoAdminGroup/go-admin/engine"
 	"github.com/GoAdminGroup/go-admin/template"
@@ -341,7 +341,7 @@ import (
 
 	_ "github.com/GoAdminGroup/go-admin/adapter/fasthttp"                 // web framework adapter
 	_ "github.com/GoAdminGroup/go-admin/modules/db/drivers/{{.Driver}}"  // sql driver
-	_ "github.com/ankurapus/themes/{{.Theme}}"                        // ui theme
+	_ "github.com/GoAdminGroup/themes/{{.Theme}}"                        // ui theme
 
 	"github.com/GoAdminGroup/go-admin/engine"
 	"github.com/GoAdminGroup/go-admin/template"
@@ -402,7 +402,7 @@ import (
 
 	_ "github.com/GoAdminGroup/go-admin/adapter/gf"                 // web framework adapter
 	_ "github.com/GoAdminGroup/go-admin/modules/db/drivers/{{.Driver}}"  // sql driver
-	_ "github.com/ankurapus/themes/{{.Theme}}"                        // ui theme
+	_ "github.com/GoAdminGroup/themes/{{.Theme}}"                        // ui theme
 
 	"github.com/GoAdminGroup/go-admin/engine"
 	"github.com/GoAdminGroup/go-admin/template"
@@ -462,7 +462,7 @@ import (
 
 	_ "github.com/GoAdminGroup/go-admin/adapter/gorilla"                 // web framework adapter
 	_ "github.com/GoAdminGroup/go-admin/modules/db/drivers/{{.Driver}}"  // sql driver
-	_ "github.com/ankurapus/themes/{{.Theme}}"                        // ui theme
+	_ "github.com/GoAdminGroup/themes/{{.Theme}}"                        // ui theme
 
 	"github.com/GoAdminGroup/go-admin/engine"
 	"github.com/GoAdminGroup/go-admin/template"
@@ -522,7 +522,7 @@ import (
 
 	_ "github.com/GoAdminGroup/go-admin/adapter/iris"                 // web framework adapter
 	_ "github.com/GoAdminGroup/go-admin/modules/db/drivers/{{.Driver}}"  // sql driver
-	_ "github.com/ankurapus/themes/{{.Theme}}"                        // ui theme
+	_ "github.com/GoAdminGroup/themes/{{.Theme}}"                        // ui theme
 
 	"github.com/GoAdminGroup/go-admin/engine"
 	"github.com/GoAdminGroup/go-admin/template"
@@ -585,10 +585,10 @@ import (
 	template2 "github.com/GoAdminGroup/go-admin/template"
 	"github.com/GoAdminGroup/go-admin/template/chartjs"
 	"github.com/GoAdminGroup/go-admin/template/types"
-	"github.com/ankurapus/themes/sword/components/card"
-	"github.com/ankurapus/themes/sword/components/chart_legend"
-	"github.com/ankurapus/themes/sword/components/description"
-	"github.com/ankurapus/themes/sword/components/progress_group"
+	"github.com/GoAdminGroup/themes/sword/components/card"
+	"github.com/GoAdminGroup/themes/sword/components/chart_legend"
+	"github.com/GoAdminGroup/themes/sword/components/description"
+	"github.com/GoAdminGroup/themes/sword/components/progress_group"
 	"html/template"
 )
 
@@ -858,12 +858,12 @@ import (
 	"github.com/GoAdminGroup/go-admin/template/chartjs"
 	"github.com/GoAdminGroup/go-admin/template/icon"
 	"github.com/GoAdminGroup/go-admin/template/types"
-	"github.com/ankurapus/themes/adminlte/components/chart_legend"
-	"github.com/ankurapus/themes/adminlte/components/description"
-	"github.com/ankurapus/themes/adminlte/components/infobox"
-	"github.com/ankurapus/themes/adminlte/components/productlist"
-	"github.com/ankurapus/themes/adminlte/components/progress_group"
-	"github.com/ankurapus/themes/adminlte/components/smallbox"
+	"github.com/GoAdminGroup/themes/adminlte/components/chart_legend"
+	"github.com/GoAdminGroup/themes/adminlte/components/description"
+	"github.com/GoAdminGroup/themes/adminlte/components/infobox"
+	"github.com/GoAdminGroup/themes/adminlte/components/productlist"
+	"github.com/GoAdminGroup/themes/adminlte/components/progress_group"
+	"github.com/GoAdminGroup/themes/adminlte/components/smallbox"
 	"html/template"
 )
 

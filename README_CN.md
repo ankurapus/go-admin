@@ -75,7 +75,7 @@ import (
 	_ "github.com/GoAdminGroup/go-admin/modules/db/drivers/mysql"
 	"github.com/GoAdminGroup/go-admin/engine"
 	"github.com/GoAdminGroup/go-admin/plugins/admin"
-	"github.com/ankurapus/themes/adminlte"
+	"github.com/GoAdminGroup/themes/adminlte"
 	"github.com/GoAdminGroup/go-admin/modules/config"
 	"github.com/GoAdminGroup/go-admin/template"
     	"github.com/GoAdminGroup/go-admin/template/chartjs"
